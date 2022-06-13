@@ -4,7 +4,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior:smooth;
 }
 
 .header {
@@ -16,20 +16,12 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;  
-    background: white;       
+    background: #36bbce;       
     box-sizing: border-box; 
     border-bottom: 1px solid black;   
     font-weight: bold; 
 }
 
-.header h2 {
-
-}
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;    
-}
 
 .menu li {
     list-style-type: none;
@@ -39,38 +31,17 @@ html {
 .menu a {
     text-decoration: none;
 }
-
-.empty-filler {
-    height: 100px;
-}
-
-.main {    
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;    
-    max-width: 1440px;
-    min-width: 320px;
-}
-
-.main section {        
-    width: 30%;
-    margin-bottom: 20px;  
-}
-
-.home {
-    padding-top: 100px;
+.main {
+color: #015965;
+font-size: 150%; /* Размер шрифта в процентах */
+background-color: #5FC0CE;
+text-align:center;
+with:50px;
+max-with:50px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;  
-    background: white;       
-    box-sizing: border-box; 
+    background: #36bbce;       
     border-top: 1px solid black;   
     font-weight: bold;  
 }
